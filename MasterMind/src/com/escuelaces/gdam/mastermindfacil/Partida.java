@@ -2,7 +2,6 @@
 package com.escuelaces.gdam.mastermindfacil;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Partida {

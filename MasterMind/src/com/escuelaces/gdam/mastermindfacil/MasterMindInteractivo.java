@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MasterMindInteractivo {
 	public static void main(String[] args) {
 		System.out.println("Bienvenido al MasterMind Interactivo");
-		Partida p = new Partida(generateObjetivo(3));
+		Partida p = new Partida(generateObjetivo(Integer.valueOf(args[0])));
 		System.out.println("Observa la partida, jugando con las bolas: " 
 				+ Partida.pintarFichasPermitidas());
         Scanner sc = new Scanner(System.in);
